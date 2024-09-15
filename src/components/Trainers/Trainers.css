@@ -1,0 +1,39 @@
+.trainers-container{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    /* background: crimson; */
+    padding: 50px 60px;
+    gap: 100px;
+    align-items: center;
+}
+.trainer-portfolios{
+    display: flex;
+    /* background: black; */
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    height: 300px;
+    gap: 30px;
+    width: 70%;
+   
+}
+.trainer-portfolio{
+    width: 300px;
+    height: 100%;
+    object-fit: cover;
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 20;
+    border: black;
+    border-radius: 10px; 
+    background: #0D0D0D;   
+}
+
+.trainer-portfolio img{
+    object-fit: cover;
+    width: 100% ;
+    padding-bottom: 20px;
+}   

@@ -1,0 +1,71 @@
+.pricing-container {
+    height: 80vh;
+    width: 100%;
+    padding: 20px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.plans {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.plan {
+    background: #0D0D0D;
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    width: 18vw;
+    border: 1ps solid transparent;
+    border-radius: 15px;
+
+}
+
+.plan .package-name {
+    color: green;
+    font-size: 10px;
+}
+
+.plan h1 {
+    font-size: 40px;
+    font-weight: 400;
+    
+}
+
+.plan ul {
+    padding: 10px 0px;
+}
+
+.plan .plan-period {
+    font-size: 10px;
+    font-weight: 200;
+}
+
+.plan ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 400;
+    gap: 10px;
+    line-height: 30px;
+}
+
+.plan ul li img {
+    width: 12px;
+}
+
+.plan .pricing-button {
+    background-color: #1D862E;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 3px 10px;
+    cursor: pointer;
+    z-index: 1000;
+}

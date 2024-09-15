@@ -1,0 +1,7 @@
+.canvas-container-model2{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 2000;
+}

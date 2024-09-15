@@ -1,0 +1,35 @@
+.contact-container{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px 60px;
+}
+
+.contact-container .right{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start ;
+    /* background: red; */
+    padding: 20px 20px;
+    
+    justify-content: space-between;
+}
+.contact-container .right ul li{
+    list-style: none;
+}
+
+.contact-container .right .icons{
+    padding-top: 20px;
+    display: flex   ;
+    gap: 20px;
+}
+.contact-container .right img {
+    width: 20px;
+    cursor: pointer;
+}
+.contact-container .right ul li{
+    line-height: 30px;
+    font-size: 14px ;
+    font-weight: 400;
+    cursor: pointer;
+}
